@@ -1,0 +1,15 @@
+# Declara los archivos que siempre tendrán los finales de línea LF en el control.
+*.pkl text eol=lf
+*.pkl.model text eol=lf
+
+# Denota todos los archivos que son absolutamente binarios y no deberían modificarse.
+*.exe binary
+*.mexw32
+*.mexw64
+*.mexglx
+*.mexa64
+*.mexmac
+*.mexmaci64
+
+# Más información
+# https://help.github.com/es/github/using-git/configuring-git-to-handle-line-endings
